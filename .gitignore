@@ -1,0 +1,15 @@
+
+# System
+.DS_Store
+
+# User Goals
+Goals_*.md
+
+# blog
+note.com.md
+
+# Configuration
+setting.toml
+_log/
+__pycache__/
+_blog/

@@ -1,0 +1,25 @@
+
+# Configuration for anti-droid-screenshot-cli
+
+[constract]
+    # Required Settings
+    # -----------------
+    # The target Android device identifier (e.g., IP:PORT or Serial Number)
+    TARGET_DEVICE = '127.0.0.1:5555'
+
+    # Directory where screenshots will be saved
+    SAVE_DIRECTORY = '~/Desktop/Screenshots'
+
+    # Path to the adb executable
+    ADB_PATH = '/usr/local/bin/adb'
+
+    # Optional Settings
+    # -----------------
+    # Prefix for the screenshot filename
+    PREFIX = 'screenshot-'
+
+    # Sound file to play on success
+    SUCCESS_SOUND = './resource/sound/otologic.jp/Camera-Phone01-1.mp3'
+
+    # Sound file to play on error
+    ERROR_SOUND = './resource/sound/otologic.jp/Quiz-Buzzer02-5(Multi).mp3'
